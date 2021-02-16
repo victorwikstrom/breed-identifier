@@ -1,8 +1,6 @@
 import React, { useReducer, useState, useRef } from "react";
 import * as mobilenet from "@tensorflow-models/mobilenet";
 import * as tf from "@tensorflow/tfjs";
-import { split } from "@tensorflow/tfjs";
-import { getByDisplayValue } from "@testing-library/react";
 import Header from "./Header.js";
 
 const stateMachine = {
